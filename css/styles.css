@@ -1,0 +1,134 @@
+html, body {
+    padding: .3em;
+    margin: 0;
+    background-color: gray;
+}
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    margin: 3em auto 2em auto;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+    color: white;
+    background-image: linear-gradient(-90deg, gray, dimgray);
+    width: 100%;
+}
+div#navigation-bar {
+    clear: both;
+    width: 100%;
+}
+div#navigation-bar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+div#navigation-bar ul li {
+    display: inline;
+    width: 32.8%;
+    float: left;
+    margin-right: .5em;
+    text-align: center;
+}
+div#navigation-bar ul li a {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-decoration: underline;
+    color: white;
+    display: block;
+    padding: .75em;
+}
+div#navigation-bar ul img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+li.changeBackground {
+    background-color: gray;
+}
+li.changeBackground:hover {
+    background-color: lightgray;
+}
+li.changeBackground:active {
+    background-color: darkslategray;
+}
+
+div#leftside {
+    width: 49.5%;
+    float: left;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    margin: 0 auto 0 auto;
+}
+div#leftside h1 h3{
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+}
+div#leftside h1 {
+    background-image: linear-gradient(-90deg, gray, dimgray);
+}
+div#leftside a {
+    color: white;
+}
+div#rightside {
+    width: 49.5%;
+    float: right;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    margin: 0 auto 0 auto;
+}
+div#rightside h1 h3{
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+}
+div#rightside a{
+    color: white;
+}
+div#rightside h1 {
+    background-image: linear-gradient(90deg, gray, dimgray);
+}
+div#mainsection {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: white;
+}
+div#mainsection a {
+    color: white;
+}
+div#mainsection p {
+    font-size: 1.5em;
+}
+div#goinghome {
+    float: center;
+    margin: 0 auto 0 auto;
+    width: 10%;
+    text-align: center;
+}
+div#goinghome a {
+    color: white;
+}
+.changeBackground {
+    background-color: gray;
+}
+.changeBackground:hover {
+    background-color: lightgray;
+}
+.changeBackground:active {
+    background-color: darkslategray;
+}
+p.justified {
+    text-align: center;
+}
+img#centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+p.scripted {
+    text-align: left;
+    padding-left: 2em;
+}
